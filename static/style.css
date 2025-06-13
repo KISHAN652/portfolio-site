@@ -959,4 +959,50 @@
                 grid-template-columns: 1fr;
             }
         }
-    
+    /* New Media Query for Large Screens */
+@media (min-width: 1400px) {
+    body {
+        font-size: 1.2rem;
+    }
+    .container {
+        max-width: 1400px;
+    }
+    .hero h1 {
+        font-size: 5rem;
+    }
+    .section-title {
+        font-size: 3.2rem;
+    }
+    .hero p,
+    .about-text p,
+    .contact-details p,
+    .project-info p {
+        font-size: 1.2rem;
+    }
+    .skill-category h3 {
+        font-size: 1.8rem;
+    }
+    .footer-col p,
+    .footer-links a {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 2000px) {
+    .container {
+        max-width: 1800px;
+    }
+    .hero h1 {
+        font-size: 6rem;
+    }
+    .section-title {
+        font-size: 3.5rem;
+    }
+    .btn {
+        padding: 18px 40px;
+        font-size: 1.2rem;
+    }
+    .hero p {
+        font-size: 1.5rem;
+    }
+}
